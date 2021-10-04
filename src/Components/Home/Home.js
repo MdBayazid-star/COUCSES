@@ -103,12 +103,12 @@ const Home = () => {
             Explore Featured <span className="c-green">Cources</span>
           </h1>
           <p className="text-center mx-auto w-50 mb-5 text-gray">
-            A massive open online course (MOOC /muːk/) is an online course aimed
-            at unlimited participation and open access via the Web.[1] In
-            addition to traditional course materials, such as filmed lectures,
-            readings, and problem sets, many MOOCs provide interactive courses
-            with user forums or social media discussions to support community
-            interactions among students, professors, and teaching assistants.
+            A massive open online course is an online course aimed at unlimited
+            participation and open access via the Web. In addition to
+            traditional course materials, such as filmed lectures, readings, and
+            problem sets, many MOOCs provide interactive courses with user
+            forums or social media discussions to support community interactions
+            among students, professors, and teaching assistants.
           </p>
         </div>
         {/* Cart Section Start */}
@@ -147,10 +147,10 @@ const Home = () => {
               <div className="smCart d-flex justify-content-center align-items-center flex-column shadow py-5 mt-5 rounded-3">
                 <div className="mb-3">
                   <span>
-                    <i class="fas fa-code fs p-3"></i>
+                    <i className="fas fa-code fs p-3"></i>
                   </span>
                 </div>
-                <h4>Development</h4>
+                <h4 className="smCartText">Development</h4>
                 <p className="c-yellow">22 Lectures</p>
               </div>
             </div>
@@ -158,7 +158,7 @@ const Home = () => {
               <div className="smCart d-flex justify-content-center align-items-center flex-column shadow py-5 mt-5 rounded-3">
                 <div className="mb-3">
                   <span>
-                    <i class="fas fa-window-restore fs p-3"></i>
+                    <i className="fas fa-window-restore fs p-3"></i>
                   </span>
                 </div>
                 <h4>Wev Desingning</h4>
@@ -169,7 +169,7 @@ const Home = () => {
               <div className="smCart d-flex justify-content-center align-items-center flex-column shadow py-5 mt-5 rounded-3">
                 <div className="mb-3">
                   <span>
-                    <i class="fas fa-leaf fs p-3"></i>
+                    <i className="fas fa-leaf fs p-3"></i>
                   </span>
                 </div>
                 <h4>Life Style</h4>
@@ -180,7 +180,7 @@ const Home = () => {
               <div className="smCart d-flex justify-content-center align-items-center flex-column shadow py-5 mt-5 rounded-3">
                 <div className="mb-3">
                   <span>
-                    <i class="fas fa-heartbeat  fs p-3"></i>
+                    <i className="fas fa-heartbeat  fs p-3"></i>
                   </span>
                 </div>
                 <h4>Health & Fitness</h4>
@@ -191,7 +191,7 @@ const Home = () => {
               <div className="smCart d-flex justify-content-center align-items-center flex-column shadow py-5 mt-5 mb-5 rounded-3">
                 <div className="mb-3">
                   <span>
-                    <i class="fas fa-landmark  fs p-3"></i>
+                    <i className="fas fa-landmark  fs p-3"></i>
                   </span>
                 </div>
                 <h4>Gov. Exams</h4>
@@ -202,7 +202,7 @@ const Home = () => {
               <div className="smCart d-flex justify-content-center align-items-center flex-column shadow py-5 mt-5 mb-5 rounded-3">
                 <div className="mb-3">
                   <span>
-                    <i class="fas fa-photo-video  fs p-3"></i>
+                    <i className="fas fa-photo-video  fs p-3"></i>
                   </span>
                 </div>
                 <h4>Photo Gallery</h4>
@@ -213,7 +213,7 @@ const Home = () => {
               <div className="smCart d-flex justify-content-center align-items-center flex-column shadow py-5 mt-5 mb-5 rounded-3">
                 <div className="mb-3">
                   <span>
-                    <i class="fas fa-stamp  fs p-3"></i>
+                    <i className="fas fa-stamp  fs p-3"></i>
                   </span>
                 </div>
                 <h4>Finanice & Accounting</h4>
@@ -224,13 +224,20 @@ const Home = () => {
               <div className="smCart d-flex justify-content-center align-items-center flex-column shadow py-5 mt-5 mb-5 rounded-3">
                 <div className="mb-3">
                   <span>
-                    <i class="fas fa-school  fs p-3"></i>
+                    <i className="fas fa-school  fs p-3"></i>
                   </span>
                 </div>
                 <h4>Office Productivity</h4>
                 <p className="c-yellow">22 Lectures</p>
               </div>
             </div>
+          </div>
+          <div className="text-center">
+            <Link to="/commingSoon">
+              <button className="btn btn-b btn-d mx-auto">
+                See More &nbsp; <i className="fas fa-arrow-right"></i>
+              </button>
+            </Link>
           </div>
         </div>
       </div>

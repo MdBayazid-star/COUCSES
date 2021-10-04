@@ -39,27 +39,71 @@ const Footer = () => {
               <div className="row">
                 <div className="col-lg-4 footerLink">
                   <h4>LAYOUTS</h4>
-                  <li>Home Page</li>
-                  <li>About Page</li>
-                  <li>Service Page</li>
-                  <li>Contact Page</li>
-                  <li>Single Blog</li>
+                  <li>
+                    <i className="fas fa-arrow-right"></i> Home Page
+                  </li>
+                  <li>
+                    {" "}
+                    <i className="fas fa-arrow-right"></i> About Page
+                  </li>
+                  <li>
+                    {" "}
+                    <i className="fas fa-arrow-right"></i> Service Page
+                  </li>
+                  <li>
+                    {" "}
+                    <i className="fas fa-arrow-right"></i> Contact Page
+                  </li>
+                  <li>
+                    {" "}
+                    <i className="fas fa-arrow-right"></i> Single Blog
+                  </li>
                 </div>
                 <div className="col-lg-4 footerLink">
                   <h4>ALL SECTIONS</h4>
-                  <li>Headers</li>
-                  <li>Attractive</li>
-                  <li>Testimonials</li>
-                  <li>Videos</li>
-                  <li>Footers</li>
+                  <li>
+                    {" "}
+                    <i className="fas fa-arrow-right"></i> Headers
+                  </li>
+                  <li>
+                    {" "}
+                    <i className="fas fa-arrow-right"></i> Attractive
+                  </li>
+                  <li>
+                    {" "}
+                    <i className="fas fa-arrow-right"></i> Testimonials
+                  </li>
+                  <li>
+                    {" "}
+                    <i className="fas fa-arrow-right"></i> Videos
+                  </li>
+                  <li>
+                    {" "}
+                    <i className="fas fa-arrow-right"></i> Footers
+                  </li>
                 </div>
                 <div className="col-lg-4 footerLink">
                   <h4>COMPANY</h4>
-                  <li>About</li>
-                  <li>Blog</li>
-                  <li>Pricing</li>
-                  <li>Affiliate</li>
-                  <li>Login</li>
+                  <li>
+                    {" "}
+                    <i className="fas fa-arrow-right"></i> About
+                  </li>
+                  <li>
+                    {" "}
+                    <i className="fas fa-arrow-right"></i> Blog
+                  </li>
+                  <li>
+                    {" "}
+                    <i className="fas fa-arrow-right"></i> Pricing
+                  </li>
+                  <li>
+                    {" "}
+                    <i className="fas fa-arrow-right"></i> Affiliate
+                  </li>
+                  <li>
+                    {" "}
+                    <i className="fas fa-arrow-right"></i> Login
+                  </li>
                 </div>
               </div>
             </div>
@@ -67,7 +111,9 @@ const Footer = () => {
         </div>
         <div className="footerText">
           <p className="text-center mt-5">
-            © 2021 DEVSkill. Designd By Md Bayazid.
+            © 2021 <span className="c-green">DEV</span> Skill
+            <span className="c-green">...</span> Designd By{" "}
+            <span className="c-green">Md Bayazid</span>.
           </p>
         </div>
       </div>

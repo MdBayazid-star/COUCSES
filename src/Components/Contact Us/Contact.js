@@ -30,7 +30,7 @@ const Contact = () => {
           <div className="col-lg-6 my-auto">
             <div className="d-flex">
               <span>
-                <i class="fas fa-phone-alt p-3"></i>
+                <i className="fas fa-phone-alt p-3"></i>
               </span>
               <div>
                 <h5>Call Me</h5>
@@ -39,7 +39,7 @@ const Contact = () => {
             </div>
             <div className="d-flex">
               <span>
-                <i class="far fa-envelope p-3"></i>
+                <i className="far fa-envelope p-3"></i>
               </span>
               <div>
                 <h5>Email</h5>
@@ -48,7 +48,7 @@ const Contact = () => {
             </div>
             <div className="d-flex">
               <span>
-                <i class="fas fa-map-marker-alt p-3"></i>
+                <i className="fas fa-map-marker-alt p-3"></i>
               </span>
               <div>
                 <h5>Location</h5>
@@ -58,48 +58,54 @@ const Contact = () => {
           </div>
           <div className="col-lg-6 my-5">
             <div className="contactInfo mb-4">
-              <div class="input-group mb-3 row">
-                <div class="form-floating  col-lg-6 mb-3">
+              <div className="input-group mb-3 row">
+                <div className="form-floating  col-lg-6 mb-3">
                   <textarea
-                    class="form-control bg-lg"
+                    className="form-control bg-lg"
                     placeholder="Leave a comment here"
                     id="floatingTextarea2"
                   ></textarea>
-                  <label for="floatingTextarea2 "> &nbsp; &nbsp; Name</label>
+                  <label htmlFor="floatingTextarea2 ">
+                    {" "}
+                    &nbsp; &nbsp; Name
+                  </label>
                 </div>
-                <div class="form-floating col-lg-6">
+                <div className="form-floating col-lg-6">
                   <textarea
-                    class="form-control bg-lg "
+                    className="form-control bg-lg "
                     placeholder="Leave a comment here"
                     id="floatingTextarea2"
                   ></textarea>
-                  <label for="floatingTextarea2"> &nbsp; &nbsp; Email</label>
+                  <label htmlFor="floatingTextarea2">
+                    {" "}
+                    &nbsp; &nbsp; Email
+                  </label>
                 </div>
               </div>
             </div>
             <div className="contactInfo me-4  w-fluid">
-              <div class="form-floating">
+              <div className="form-floating">
                 <textarea
-                  class="form-control bg-lg w-100"
+                  className="form-control bg-lg w-100"
                   placeholder="Leave a comment here"
                   id="floatingTextarea2"
                 ></textarea>
-                <label for="floatingTextarea2">Subjects</label>
+                <label htmlFor="floatingTextarea2">Subjects</label>
               </div>
             </div>
             <div className="my-4">
-              <div class="form-floating">
+              <div className="form-floating">
                 <textarea
-                  class="form-control bg-lg c-hight"
+                  className="form-control bg-lg c-hight"
                   placeholder="Leave a comment here"
                   id="floatingTextarea2"
                 ></textarea>
-                <label for="floatingTextarea2">Comments</label>
+                <label htmlFor="floatingTextarea2">Comments</label>
               </div>
             </div>
             <Link to="/commingSoon">
               <button className="btn btn-b">
-                <i class="far fa-paper-plane"></i> Send Massage
+                <i className="far fa-paper-plane"></i> Send Massage
               </button>
             </Link>
           </div>

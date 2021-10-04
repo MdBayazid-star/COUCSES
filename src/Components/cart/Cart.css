@@ -48,3 +48,13 @@
   color: #4e6579;
   font-size: 15px;
 }
+.control:hover i {
+  transform: rotate(0) !important;
+  -webkit-transform: rotate(0) !important;
+  -moz-transform: rotate(0) !important;
+  -ms-transform: rotate(0) !important;
+  -o-transform: rotate(0) !important;
+}
+.shadowCart:hover {
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2) !important;
+}

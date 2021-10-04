@@ -26,6 +26,13 @@ const Blog = () => {
         </div>
       </div>
       <div className="container">
+        <h2 className="text-center mb-2">
+          Our <span className="c-green">Blog</span>
+        </h2>
+        <p className="pText text-center mb-5">
+          International news, features and analysis from Africa, the
+          Asia-Pacific, Europe, Latin America, the Middle East, South Asia
+        </p>
         <div className="row row-cols-1 row-cols-md-3 g-4 mb-5">
           {blogs.map((blog) => (
             <SingleBlog cart={blog} key={blog.key}></SingleBlog>

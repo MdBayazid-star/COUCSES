@@ -29,6 +29,7 @@ const Header = () => {
               <ul className="navbar-nav m-auto mb-2 mb-lg-0">
                 <li className="nav-item">
                   <NavLink
+                    exact
                     className="nav-link"
                     activeStyle={{
                       color: "#03b97c",
@@ -41,6 +42,7 @@ const Header = () => {
                 </li>
                 <li className="nav-item">
                   <NavLink
+                    exact
                     className="nav-link"
                     activeStyle={{
                       color: "#03b97c",
@@ -52,6 +54,7 @@ const Header = () => {
                 </li>
                 <li className="nav-item">
                   <NavLink
+                    exact
                     className="nav-link"
                     activeStyle={{
                       color: "#03b97c",
@@ -64,6 +67,7 @@ const Header = () => {
 
                 <li className="nav-item">
                   <NavLink
+                    exact
                     activeStyle={{
                       color: "#03b97c",
                     }}
@@ -75,6 +79,7 @@ const Header = () => {
                 </li>
                 <li className="nav-item">
                   <NavLink
+                    exact
                     activeStyle={{
                       color: "#03b97c",
                     }}
@@ -86,6 +91,7 @@ const Header = () => {
                 </li>
                 <li className="nav-item">
                   <NavLink
+                    exact
                     activeStyle={{
                       color: "#03b97c",
                     }}
@@ -99,7 +105,7 @@ const Header = () => {
               <div className="d-flex">
                 <Link to="commingSoon">
                   <button
-                    className="btn btn-outline-success btn-bl mx-2"
+                    className="btn btn-outline-success btn-bl mx-2 borders"
                     type="submit"
                   >
                     <i className="fas fa-sign-in-alt"></i> Sing In

@@ -94,3 +94,43 @@
   font-weight: 600;
   background: #e0f6ef !important;
 }
+.btn i {
+  transition: all ease 0.7s;
+  -webkit-transition: all ease 0.7s;
+  -moz-transition: all ease 0.7s;
+  -ms-transition: all ease 0.7s;
+  -o-transition: all ease 0.7s;
+  transform: rotate(0);
+  -webkit-transform: rotate(0);
+  -moz-transform: rotate(0);
+  -ms-transform: rotate(0);
+  -o-transform: rotate(0);
+}
+.btn:hover i {
+  /* margin-right: 8px; */
+  transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+}
+.smCart {
+  transition: all ease 0.6s;
+  -webkit-transition: all ease 0.6s;
+  -moz-transition: all ease 0.6s;
+  -ms-transition: all ease 0.6s;
+  -o-transition: all ease 0.6s;
+}
+.smCart:hover {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2) !important;
+  background: #03b97c;
+}
+.smCart:hover > div span i {
+  background: #fff !important;
+}
+.smCart:hover h4 {
+  color: #fff !important;
+}
+.smCart:hover p {
+  color: #1d2636;
+}

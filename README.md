@@ -1,6 +1,6 @@
 # `Getting Started with Dev Skills...`
 
-The project Live Link was [Money Heist](https://kind-carson-5496ff.netlify.app/services).
+The project Live Link was [Dev Skills...](https://kind-carson-5496ff.netlify.app/).
 
 ### `What Do You Know From This Website ???`
 

@@ -16,23 +16,25 @@ const CommingSoon = () => {
               <div>
                 <h4 className="text-center my-5 c-green">News Letter</h4>
                 <div className="d-flex flex-column align-items-center">
-                  <div class="form-floating mb-3 come">
+                  <div className="form-floating mb-3 come">
                     <input
                       type="email"
-                      class="form-control w-75"
+                      className="form-control w-75"
                       id="floatingInput"
                       placeholder="Name"
                     />
-                    <label for="floatingInput">Name</label>
+                    <label htmlFor="floatingInput">Name</label>
                   </div>
-                  <div class="form-floating come">
+                  <div className="form-floating come">
                     <input
                       type="text"
-                      class="form-control w-75 mb-5"
+                      className="form-control w-75 mb-5"
                       placeholder="name@example.com"
                       id="floatingPassword"
                     />
-                    <label for="floatingPassword px-auto">Email address</label>
+                    <label htmlFor="floatingPassword px-auto">
+                      Email address
+                    </label>
                   </div>
                   <div className="mb-5">
                     <Link to="*">

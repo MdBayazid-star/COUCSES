@@ -32,3 +32,6 @@ btn-b:hover {
   background: #03b97c !important;
   color: rgb(251, 251, 251) !important;
 }
+.borders {
+  border: 1px solid #03b97c !important;
+}

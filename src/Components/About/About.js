@@ -8,7 +8,9 @@ const About = () => {
     <div>
       <div className="text-center">
         <div className="bg-light py-5">
-          <h1 className="">Who Are We?</h1>
+          <h1 className="">
+            Who Are <span className="c-green">We</span> ?
+          </h1>
           <p className="w-50 md-w-75 mx-auto text-gray">
             Educational technology (commonly abbreviated as EduTech, or EdTech)
             is the combined use of computer hardware, software, and educational
@@ -23,7 +25,9 @@ const About = () => {
           <div className="row my-5">
             <div className="col-lg-6 my-auto">
               <span className="c-green">About Us</span>
-              <h2>What We Do & Our Aim</h2>
+              <h2>
+                What We Do <span className="c-green">&</span> Our Aim
+              </h2>
               <p className="text-gray">
                 At vero eos et accusamus et iusto odio dignissimos ducimus qui
                 blanditiis praesentium voluptatum deleniti atque corrupti quos

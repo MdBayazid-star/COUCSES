@@ -3,7 +3,6 @@ import "./../Blog/Blog.css";
 
 const SingleBlog = (props) => {
   const { job, title, details, view, data, img } = props.cart;
-  console.log(props.cart);
   return (
     <div className="col-lg-4 col-md-6 col-12">
       <div className="carts bg-light  shadow roundeds">
@@ -20,13 +19,12 @@ const SingleBlog = (props) => {
           <div className="d-flex justify-content-evenly align-items-center">
             <div>
               <p>
-                <i class="far fa-eye icons"></i> {view}
+                <i className="far fa-eye icons"></i> {view}
               </p>
             </div>
-            {/* <button className="btn btn-b">See More</button> */}
             <div>
               <p>
-                <i class="fas fa-clock icons iconTwo"></i> {data}
+                <i className="fas fa-clock icons iconTwo"></i> {data}
               </p>
             </div>
           </div>
