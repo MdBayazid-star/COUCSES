@@ -1,0 +1,34 @@
+.navbar-brand {
+  font-size: 20px !important;
+  font-weight: 500;
+}
+.navbar-brand span {
+  font-size: 23px !important;
+  color: #03b97c;
+}
+ul li a {
+  font-size: 18px !important;
+  font-weight: 500;
+  padding: auto 20px !important;
+}
+ul li a:hover {
+  color: #03b97c !important;
+}
+.btn {
+  font-size: 18px !important;
+  font-weight: 500 !important;
+  padding: 0.7rem 1.5rem;
+}
+.btn-bl {
+  border: none !important;
+  color: #03b97c !important;
+}
+.btn-bl:hover {
+  background: none;
+}
+.btn-b,
+btn-b:hover {
+  border: none !important;
+  background: #03b97c !important;
+  color: rgb(251, 251, 251) !important;
+}

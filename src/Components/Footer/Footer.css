@@ -1,0 +1,22 @@
+.footer {
+  background: #1d2636;
+  color: aliceblue;
+}
+.footerLink h4 {
+  margin-bottom: 20px;
+}
+.footerLink li {
+  color: #436d88;
+  line-height: 40px;
+  list-style-type: none;
+  cursor: pointer;
+}
+.foot {
+  color: #436d88;
+}
+.footerLink li:hover {
+  color: #fff;
+}
+.footerText p {
+  color: #436d88;
+}

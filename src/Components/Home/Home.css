@@ -1,0 +1,96 @@
+.c-green {
+  color: #03b97c !important;
+}
+.search {
+  position: relative;
+  /* margin: 0  10px; */
+}
+.search label {
+  position: relative;
+  width: 100%;
+}
+.search label input {
+  width: 100%;
+  height: 50px;
+  padding-left: 35px;
+  outline: none;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+.search label .fas {
+  position: absolute;
+  left: 10px;
+  top: 16px;
+  color: #dedcde;
+}
+.Home {
+  position: relative;
+}
+.homeBottom {
+  /* position: absolute; */
+  margin-top: -60px;
+}
+.rate {
+  font-size: 30px;
+}
+.reatings i {
+  color: #ff9800;
+  font-size: 16px;
+  margin: 3px;
+}
+.round {
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.homeBt i {
+  padding: 15px;
+  color: #ff5722;
+  background: #ffede7;
+  margin-right: 10px;
+  border: 1px dashed #ff5722;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.homebt2 i {
+  color: #906ad4;
+  border: 1px dashed #906ad4;
+  background: #f2edfa;
+}
+.homebt3 i {
+  color: #09b9b1;
+  border: 1px dashed #09b9b1;
+  background: #e1f6f6;
+}
+.homeBt h5 {
+  font-size: 16px;
+}
+.homebt4 i {
+  color: #7cbf2f;
+  border: 1px dashed #7cbf2f;
+  background: #eff7e6;
+}
+.btn-d {
+  border-radius: 10px;
+  color: #03b97c !important;
+  background: #e0f6ef !important;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.text-gray {
+  color: #6c757d !important;
+}
+.c-yellow {
+  color: #ff9800;
+}
+.fs {
+  font-size: 25px !important;
+  font-weight: 600;
+  background: #e0f6ef !important;
+}

@@ -1,0 +1,15 @@
+.come input {
+  width: 300px !important;
+  border: none;
+  border-radius: 45px;
+  -webkit-border-radius: 45px;
+  -moz-border-radius: 45px;
+  -ms-border-radius: 45px;
+  -o-border-radius: 45px;
+}
+.bg-lightGreen {
+  background: #e0f6ef;
+}
+.CommingSoon {
+  background: linear-gradient(#239ddee3, #30cd7cc2);
+}

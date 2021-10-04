@@ -1,0 +1,51 @@
+.blogs {
+  background: linear-gradient(#2a405b9f, #2a405ba6),
+    url(./../../Images/pexels-olia-danilevich-5088191.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.blogImg {
+  width: 100%;
+  height: 300px;
+}
+.pText {
+  color: #4e6579;
+}
+.icons {
+  color: #2eb737;
+  font-size: 10px !important;
+  padding: 5px;
+  border: 0.2px solid #4e657952 !important;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.iconTwo {
+  color: #ff9b20;
+}
+.subThree {
+  border-radius: 7px;
+  padding: 8px;
+  color: #03b97c;
+  background: #e5f8f2;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  -o-border-radius: 7px;
+}
+.roundeds {
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+.cartImgs img {
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}

@@ -1,0 +1,36 @@
+.contactInfo textarea {
+  /* width: 304px; */
+  padding-left: 5px !important;
+  color: #a19fad;
+  background: #e0f6ef;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.bg-lg {
+  background: #e0f6ef;
+  border: none;
+  color: #a19fad;
+}
+.c-hight {
+  border-radius: 10px;
+  height: 150px !important;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.t-gray {
+  color: #fff;
+  font-size: 20px;
+}
+.contactBg {
+  background: url(./../../Images/flat-lay-chat-bubbles-with-telephone-receiver-copy-space.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}

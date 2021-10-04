@@ -1,0 +1,22 @@
+span i {
+  padding: 6px;
+  background: #ddf5e0;
+  color: #03b97c;
+  margin-right: 10px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.num {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  color: #fff;
+  background: #03b97c;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}

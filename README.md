@@ -1,6 +1,26 @@
-# Getting Started with Create React App
+# `Getting Started with Dev Skills...`
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The project Live Link was [Money Heist](https://kind-carson-5496ff.netlify.app/services).
+
+### `What Do You Know From This Website ???`
+
+- At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique
+
+- When referred to with its abbreviation, EdTech, it is often referring to the industry of companies that create educational technology.
+
+- The series received several awards including the International Emmy Award for Best Drama Series at the 46th International Emmy Awards, as well as critical acclaim for its sophisticated plot, interpersonal dramas, direction, and for trying to innovate Spanish television
+
+### `What Do You Do IN This Website ???`
+
+- Sing UP For Free
+
+- Follow Charecter
+
+### `To Know About Devoloper`
+
+This Is [Linkdun](https://www.linkedin.com/in/md-bayazid-5bb117216/)
+
+This Is [GitHub](https://github.com/MdBayazid-star)
 
 ## Available Scripts
 
