@@ -12,3 +12,22 @@
   background: #03b97c;
   border-radius: 10px;
 }
+.bg-green {
+  background: #03b97c;
+}
+.bg-light-gray {
+  background: #f7f8f9 !important;
+}
+.c-gray {
+  color: #83899b !important;
+}
+.focous:checked {
+  background: #03b97c;
+}
+.singupIng img {
+  width: 700px !important;
+  height: 300px !important;
+}
+.Imgicon {
+  margin: -40px 15% !important;
+}

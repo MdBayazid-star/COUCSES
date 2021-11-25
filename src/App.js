@@ -9,6 +9,8 @@ import Error from "./Components/Error/Error";
 import Footer from "./Components/Footer/Footer";
 import Header from "./Components/Header/Header";
 import Home from "./Components/Home/Home";
+import SingIn from "./Components/Registration/SingIn";
+import SingUp from "./Components/Registration/SingUp";
 import Services from "./Components/Services/Services";
 
 function App() {
@@ -34,6 +36,12 @@ function App() {
           </Route>
           <Route path="/commingSoon">
             <CommingSoon></CommingSoon>
+          </Route>
+          <Route path="/singin">
+            <SingIn></SingIn>
+          </Route>
+          <Route path="/singup">
+            <SingUp></SingUp>
           </Route>
           <Route exact path="/">
             <Home></Home>

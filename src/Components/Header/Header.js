@@ -103,12 +103,12 @@ const Header = () => {
                 </li>
               </ul>
               <div className="d-flex">
-                <Link to="commingSoon">
+                <Link to="/singin">
                   <button
                     className="btn btn-outline-success btn-bl mx-2 borders"
                     type="submit"
                   >
-                    <i className="fas fa-sign-in-alt"></i> Sing In
+                    <i className="fas fa-sign-in-alt"></i> Log In
                   </button>
                 </Link>
                 <Link to="/commingSoon">
